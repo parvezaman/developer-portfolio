@@ -5,10 +5,13 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 35px;
+}
 .tag-color{
     color:tomato;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -44,3 +47,40 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
+.experience-area{
+    background-image: url(developer-portfolio-master/images/exp-bg.png);
+    background-repeat: no-repeat; 
+    background-position: left;
+}
+.experience-item{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 40%;
+    box-shadow: 10px 10px 39px gray; 
+    padding-left:20px;
+    border-radius: 10px;
+
+}
+#geo-exp{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan) 27;
+    
+}
+#web-dev-exp{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, cyan) 27;
+
+}
+footer p{
+    text-align: center;
+}
+/* .box {
+    border-radius:50px; /*1*/
+    border-left:10px solid transparent; /*2*/
+    background:linear-gradient(45deg,red,blue) border-box; /*3*/
+    -webkit-mask: /*4*/
+       linear-gradient(#fff 0 0) padding-box, 
+       linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out; /*5'*/
+    mask-composite: exclude; /*5*/
+  } */
